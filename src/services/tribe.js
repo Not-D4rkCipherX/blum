@@ -27,7 +27,7 @@ class TribeService {
       if (data) {
         const top100 = data.items.slice(0, 100);
         const tribeSkip = user?.database?.tribeSkip || [
-          "642e3141-5536-4d2f-9a5f-a62a35ede62c",
+          "e7d71ab5-5e2f-4b2d-b00a-78d014a93ff6",
         ];
         return top100
           .filter((tribe) => !tribeSkip.includes(tribe.id))
@@ -42,7 +42,7 @@ class TribeService {
 
   async joinTribe(
     user,
-    tribeId = "642e3141-5536-4d2f-9a5f-a62a35ede62c",
+    tribeId = "e7d71ab5-5e2f-4b2d-b00a-78d014a93ff6",
     skipLog = false
   ) {
     const endpoint = `tribe/${tribeId}/join`;
@@ -52,8 +52,8 @@ class TribeService {
         if (!skipLog) {
           user.log.log(
             "Successfully joined Tribe: " +
-              colors.rainbow("Seven-colored Rabbit") +
-              " 🌈"
+              colors.rainbow("5k Airdrop") +
+              " LFG"
           );
         }
       } else {
@@ -99,7 +99,7 @@ class TribeService {
         await delayHelper.delay(3);
         await this.joinTribe(
           user,
-          "642e3141-5536-4d2f-9a5f-a62a35ede62c",
+          "e7d71ab5-5e2f-4b2d-b00a-78d014a93ff6",
           true
         );
       }
