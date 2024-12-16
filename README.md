@@ -4,6 +4,7 @@
 
 - Auto Play Game
 - Auto Claim Daily
+- Auto Complete Tasks
 
 ## COOMANDS
 ```
