@@ -1,4 +1,4 @@
-## BUMS BOT
+## BLUM BOT
 
 ## BOT FEATURE
 
