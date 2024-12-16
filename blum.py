@@ -1099,10 +1099,7 @@ def start():
  ██╔══██╗██║░░░░░██║░░░██║██║╚██╔╝██║
  ██████╦╝███████╗╚██████╔╝██║░╚═╝░██║
  ╚═════╝░╚══════╝░╚═════╝░╚═╝░░░░░╚═╝
-        
-   █▀▄ █▀█ █▀█ █▀█ █▀█ █▀▀ █▀█ █▀
-   █▄▀ █▀▄ █▄█ █▀▀ █▀▀ ██▄ █▀▄ ▄█
-    find new airdrop & bot here: https://t.me/droppers_info
+    find new airdrop & bot here: https://t.me/D4rkCipherX
               
         Pilihan :
         1. Claim Daily & Play Game
