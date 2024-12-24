@@ -905,9 +905,9 @@ def main():
                     print_('No have ticket For Playing games')
                 # data_elig = elig_dogs(token)
                 while balance_info['playPasses'] > 0:
-                    print_(f"Play Game : Playing game playhttps://t.me/AirdropScript6 ...")
+                    print_(f"Play Game : Playing game play ...")
                     gameId = get_game_id(token)
-                    print_(f"Play Game : Checking game https://t.me/AirdropScript6 ...")
+                    print_(f"Play Game : Checking game ...")
                     taps = random.randint(1680, 1700)
                     delays = random.randint(31, 35)
                     freeze = random.randint(4,8)
@@ -1092,29 +1092,11 @@ def task_main():
 
 def start():
     print(r"""
-        
-░▀▀█░█▀█░▀█▀░█▀█
-░▄▀░░█▀█░░█░░█░█
-░▀▀▀░▀░▀░▀▀▀░▀░▀
-╔══════════════════════════════════╗
-║                                  ║
-║  ZAIN ARAIN                      ║
-║  AUTO SCRIPT MASTER              ║
-║                                  ║
-║  JOIN TELEGRAM CHANNEL NOW!      ║
-║  https://t.me/AirdropScript6              ║
-║  @AirdropScript6 - OFFICIAL      ║
-║  CHANNEL                         ║
-║                                  ║
-║  FAST - RELIABLE - SECURE        ║
-║  SCRIPTS EXPERT                  ║
-║                                  ║
-╚══════════════════════════════════╝
-              
-        Choice :
-        1. Claim Daily & Play Game
-        2. Clear Task
-          
+          BLUM AUTO GAMEPLAY SCRIPT BY D4rkCipherX 
+
+
+        Type 1 And Press Enter To Run The Script
+       
           """)
     selector = input("Select the one  : ").strip().lower()
 
@@ -1128,7 +1110,7 @@ def printdelay(delay):
     now = datetime.now().isoformat(" ").split(".")[0]
     hours, remainder = divmod(delay, 3600)
     minutes, sec = divmod(remainder, 60)
-    print(f"{now} | https://t.me/AirdropScript6 : {hours} hours, {minutes} minutes, and {round(sec)} seconds")
+    print(f"{now} | (https://t.me/D4rkCipherX) : {hours} hours, {minutes} minutes, and {round(sec)} seconds")
 
 if __name__ == "__main__":
     start()
