@@ -908,10 +908,12 @@ def main():
                     print_(f"Play Game : Playing game...")
                     gameId = get_game_id(token)
                     print_(f"Play Game : Checking game...")
-                    taps = random.randint(330, 400)
+                    taps = random.randint(1680, 1700)
                     delays = random.randint(31, 35)
                     freeze = random.randint(4,8)
                     delays += (freeze*5)
+                    # dogs = random.randint(20,30)*0.1
+                    time.sleep(delays)
                     # dogs = random.randint(20,30)*0.1
                     time.sleep(delays)
                     # if data_elig:
@@ -1101,9 +1103,9 @@ def start():
  ╚═════╝░╚══════╝░╚═════╝░╚═╝░░░░░╚═╝
     find new airdrop & bot here: https://t.me/D4rkCipherX
               
-        Pilihan :
+        Select :
         1. Claim Daily & Play Game
-        2. Clear Task
+     
           
           """)
     selector = input("Select the one  : ").strip().lower()
